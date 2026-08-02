@@ -8,7 +8,7 @@ The game features smooth animations, responsive layouts, score persistence using
 
 ## 🚀 Live Demo
 
-🔗 https://your-demo-link.pages.dev
+🔗 https://rock-paper-scissors-lizard-spock-a29.pages.dev
 
 ---
 
