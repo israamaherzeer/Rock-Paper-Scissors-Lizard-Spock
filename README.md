@@ -42,9 +42,10 @@ The game features smooth animations, responsive layouts, score persistence using
 
 ## 📸 Screenshots
 
-<img width="1903" height="922" alt="Screenshot 2026-08-02 175839" src="https://github.com/user-attachments/assets/c4575742-1f17-48d7-8004-6e34beb8e591" />
-<img width="1906" height="908" alt="Screenshot 2026-08-02 175818" src="https://github.com/user-attachments/assets/cce7ad84-9860-4e58-802a-549ec0409141" />
 <img width="1881" height="920" alt="Screenshot 2026-08-02 175736" src="https://github.com/user-attachments/assets/0c514e37-3167-4e0e-8216-2cf57c2ffb13" />
+
+<img width="1906" height="908" alt="Screenshot 2026-08-02 175818" src="https://github.com/user-attachments/assets/cce7ad84-9860-4e58-802a-549ec0409141" />
+<img width="1903" height="922" alt="Screenshot 2026-08-02 175839" src="https://github.com/user-attachments/assets/c4575742-1f17-48d7-8004-6e34beb8e591" />
 
 
 
@@ -57,7 +58,7 @@ The game features smooth animations, responsive layouts, score persistence using
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/israamaherzeer/Rock-Paper-Scissors-Lizard-Spock.git
 ```
 
 Open the project folder and launch **index.html** in your browser.
