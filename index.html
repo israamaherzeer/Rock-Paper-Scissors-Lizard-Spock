@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Paper Scissors Lizard Spock</title>
+<meta name="description" content="A responsive, animated Rock Paper Scissors Lizard Spock game.">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Only the arrow glyph (used in the rules list) has no matching uploaded -->
+<!-- asset, so it stays as an inline symbol. Every other icon now loads -->
+<!-- from the real uploaded SVG files (icon-rock.svg, icon-paper.svg, -->
+<!-- icon-scissors.svg, icon-lizard.svg, icon-spock.svg, icon-close.svg). -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="images/icon-arrow" viewBox="0 0 24 24">
+    <path d="M4 12 H18 M13 6 L19 12 L13 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<div class="app">
+
+  <header class="top-bar">
+    <div class="logo" aria-label="Rock Paper Scissors Lizard Spock">
+      <span class="logo-row logo-row--top">Rock Paper Scissors</span>
+      <span class="logo-row logo-row--bottom">Lizard Spock</span>
+    </div>
+    <div class="score-card">
+      <span class="score-label">Score</span>
+      <span class="score-value" id="score">0</span>
+    </div>
+  </header>
+
+  <main id="board" class="board" aria-live="polite">
+    <!-- game states are rendered here by javascript.js -->
+  </main>
+
+  <button id="rulesButton" class="rules-btn" type="button">Rules</button>
+
+  <div id="rulesOverlay" class="rules-overlay" hidden>
+    <div class="rules-modal" role="dialog" aria-modal="true" aria-labelledby="rulesTitle">
+      <div class="rules-modal" role="dialog" aria-modal="true">
+
+    <div class="rules-header">
+
+        <h2>Rules</h2>
+
+        <button id="closeRules" class="icon-btn">
+
+            <img
+                src="images/icon-close.svg"
+                alt="Close">
+
+        </button>
+
+    </div>
+
+    <img
+        src="images/image-rules-bonus.svg"
+        class="rules-image"
+        alt="Game Rules">
+
+</div>
+      <ul class="rules-list" id="rulesList"></ul>
+    </div>
+  </div>
+
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
