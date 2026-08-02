@@ -14,7 +14,7 @@ The game features smooth animations, responsive layouts, score persistence using
 
 ## 📂 GitHub Repository
 
-🔗 https://github.com/your-username/your-repository
+🔗https://github.com/israamaherzeer/Rock-Paper-Scissors-Lizard-Spock.git
 
 ---
 
@@ -42,30 +42,15 @@ The game features smooth animations, responsive layouts, score persistence using
 
 ## 📸 Screenshots
 
-Add screenshots here after deployment.
+<img width="1903" height="922" alt="Screenshot 2026-08-02 175839" src="https://github.com/user-attachments/assets/c4575742-1f17-48d7-8004-6e34beb8e591" />
+<img width="1906" height="908" alt="Screenshot 2026-08-02 175818" src="https://github.com/user-attachments/assets/cce7ad84-9860-4e58-802a-549ec0409141" />
+<img width="1881" height="920" alt="Screenshot 2026-08-02 175736" src="https://github.com/user-attachments/assets/0c514e37-3167-4e0e-8216-2cf57c2ffb13" />
 
-Example:
 
-* Home Screen
-* Gameplay
-* Winning State
-* Rules Modal
-* Mobile View
 
----
 
-## 📁 Project Structure
 
-```
-.
-├── index.html
-├── style.css
-├── javascript.js
-├── images/
-└── README.md
-```
 
----
 
 ## ▶️ Running Locally
 
@@ -81,19 +66,6 @@ Alternatively, use the **Live Server** extension in Visual Studio Code.
 
 ---
 
-## 💡 Future Improvements
 
-* Sound effects
-* Dark mode
-* Difficulty levels
-* Statistics dashboard
-* Multiplayer mode
-* Better accessibility support
 
----
 
-## 👩‍💻 Author
-
-Developed by **Israa Maher**.
-
-If you enjoyed this project, feel free to ⭐ the repository.
